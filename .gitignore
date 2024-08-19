@@ -1,0 +1,35 @@
+# Binários gerados
+/bin/
+/out/
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+
+# Diretorias de build
+/build/
+/dist/
+
+# Arquivos de dependências do Go
+/vendor/
+
+# Cache do Go
+/pkg/
+/.golangci.yml
+
+# Arquivos gerados pelo gRPC
+*.pb.go
+*.pb.gw.go
+
+# IDEs e ferramentas
+/.idea/
+/.vscode/
+/*.iml
+.tool-versions
+
+# Arquivos temporários e de sistema
+*.tmp
+*.log
+*.swp
+*.swo
+*~
